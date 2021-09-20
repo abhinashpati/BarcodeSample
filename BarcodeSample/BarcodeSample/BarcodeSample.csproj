@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+    </PropertyGroup>
+
+    <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+        <DebugType>pdbonly</DebugType>
+        <DebugSymbols>true</DebugSymbols>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="BarcodeScanner.XF" Version="5.0.8" />
+        <PackageReference Include="Prism.Container.Extensions" Version="7.2.0.1054" />
+        <PackageReference Include="Prism.Forms.Extended" Version="7.2.0.1054" />
+        <PackageReference Include="Prism.Plugin.Popups" Version="7.2.0.1046" />
+        <PackageReference Include="Prism.Unity.Extensions" Version="7.2.0.1054" />
+        <PackageReference Include="Rg.Plugins.Popup" Version="2.0.0.11" />
+        <PackageReference Include="Xamarin.CommunityToolkit" Version="1.2.0" />
+        <PackageReference Include="Xamarin.Essentials" Version="1.6.1" />
+        <PackageReference Include="Xamarin.Essentials.Interfaces" Version="1.6.1" />
+        <PackageReference Include="Xamarin.Forms" Version="5.0.0.2012" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Update="Views\MainPage.xaml.cs">
+        <DependentUpon>MainPage.xaml</DependentUpon>
+        <SubType>Code</SubType>
+      </Compile>
+    </ItemGroup>
+</Project>

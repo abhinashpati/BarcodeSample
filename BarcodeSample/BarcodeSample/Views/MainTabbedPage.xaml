@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<customControls:CustomTabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+            android:TabbedPage.ToolbarPlacement="Bottom"
+            xmlns:views="clr-namespace:BarcodeSample.Views;assembly=BarcodeSample"
+            xmlns:customControls="clr-namespace:BarcodeSample.CustomControls;assembly=BarcodeSample"
+            TabBarBorderColor="DarkSlateGray"
+            TabBarBorderThickness="1"
+            TabBarMinimumHeight="60"
+            ShowTabIconsOnly="True"
+            x:Class="BarcodeSample.Views.MainTabbedPage" 
+            SelectedTabColor="Silver"
+            UnselectedTabColor="Gold">
+    <views:MainPage IconImageSource="ic_home_gray.png" />
+    <views:DummyPage IconImageSource="ic_home_gray.png" />
+    <views:DummyPage IconImageSource="ic_home_gray.png" />
+</customControls:CustomTabbedPage>

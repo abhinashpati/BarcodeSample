@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewModels="clr-namespace:BarcodeSample.ViewModels;assembly=BarcodeSample"
+             xmlns:localization="http://xamarin.com/schemas/2020/toolkit"
+             xmlns:views="clr-namespace:BarcodeSample.Views;assembly=BarcodeSample"
+             x:DataType="viewModels:ScanningPageViewModel"
+             x:Class="BarcodeSample.Views.ScanningPage">
+    <ContentPage.Content>
+        <AbsoluteLayout x:Name="ParentLayout">
+            <views:BarcodeScannerView IsTorchOn="{Binding IsTorchOn}"
+                                      IsAnalyzing="{Binding IsAnalyzing}"
+                                      Result="{Binding Result, Mode=TwoWay}"
+                                      ScanResultCommand="{Binding ScanCompletedCommand}"
+                                      AbsoluteLayout.LayoutBounds="1,1,1,1"
+                                      AbsoluteLayout.LayoutFlags="All" />
+            
+            <AbsoluteLayout AbsoluteLayout.LayoutBounds="1,1,1,1"
+                            AbsoluteLayout.LayoutFlags="All">
+                <Button      Text="Close"
+                             HorizontalOptions="End"
+                             VerticalOptions="Start"
+                             Margin="23"
+                             AbsoluteLayout.LayoutBounds="0,1,1,1"
+                             AbsoluteLayout.LayoutFlags="All"
+                             Command="{Binding CloseBarcodeScanningPage}"/>
+                <StackLayout AbsoluteLayout.LayoutBounds="1,1,1,0.45"
+                             AbsoluteLayout.LayoutFlags="All"
+                             Orientation="Vertical">
+                    <StackLayout BackgroundColor="#000000"
+                                 Opacity="0.6"
+                                 HorizontalOptions="CenterAndExpand"
+                                 VerticalOptions="Start"
+                                 Padding="45, 10"
+                                 Margin="58,22"
+                                 Spacing="16"
+                                 Orientation="Horizontal">
+                            <StackLayout.Triggers>
+                                <DataTrigger TargetType="StackLayout"
+                                             Binding="{Binding ShowScanErrorMessage}"
+                                             Value="true">
+                                    <Setter Property="BackgroundColor" 
+                                            Value="Red" />
+                                    <Setter Property="Padding" 
+                                            Value="16" />
+                                    <Setter Property="Opacity" 
+                                            Value="1" />
+                                </DataTrigger>
+                            </StackLayout.Triggers>
+                        <Image Source="ic_close_red.png"
+                               VerticalOptions="CenterAndExpand"
+                               HorizontalOptions="Start"
+                               HeightRequest="20"
+                               WidthRequest="20"
+                               Aspect="AspectFill"
+                               IsVisible="{Binding ShowScanErrorMessage}" />
+                        <Label Text="Error"
+                               TextColor="White"
+                               FontSize="12"
+                               VerticalTextAlignment="Center"
+                               HorizontalTextAlignment="Center"
+                               HorizontalOptions="CenterAndExpand">
+                            <Label.Triggers>
+                                <DataTrigger TargetType="Label"
+                                             Binding="{Binding ShowScanErrorMessage}"
+                                             Value="true" >
+                                    <Setter Property="TextColor"
+                                            Value="#111111" />
+                                    <Setter Property="FontFamily"
+                                            Value="NormalBoldTextFont" />
+                                    <Setter Property="HorizontalTextAlignment"
+                                            Value="Left" />
+                                    <Setter Property="Text"
+                                            Value="Error"/>
+                                </DataTrigger>
+                            </Label.Triggers>
+                        </Label>
+                    </StackLayout>
+                    <StackLayout HorizontalOptions="CenterAndExpand"
+                                 VerticalOptions="EndAndExpand"
+                                 Orientation="Horizontal"
+                                 Spacing="16"
+                                 Margin="0,0,0,17">
+                        <Button Text="Take Photo"
+                                FontSize="12"
+                                WidthRequest="106"
+                                HeightRequest="44"
+                                BorderWidth="0"
+                                Command="{Binding GoToPhotoPageCommand}">
+                        </Button>
+                    </StackLayout>
+                </StackLayout>
+            </AbsoluteLayout>
+        </AbsoluteLayout>
+    </ContentPage.Content>
+</ContentPage>

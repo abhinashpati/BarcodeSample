@@ -1,0 +1,32 @@
+{
+  "version": 2,
+  "dgSpecHash": "f8P1Vsjs8jYHOYR7TRc06csgIRCrn62L9Ci5zTSzQWMAR5aVK7Q9ZTJkM1FmZmbpRNy6RgMnilN6WgZJ1Mn0xA==",
+  "success": true,
+  "projectFilePath": "/Users/abhinash.pati/Documents/Devworkspace/BarcodeSample/BarcodeSample/BarcodeSample/BarcodeSample.csproj",
+  "expectedPackageFiles": [
+    "/Users/abhinash.pati/.nuget/packages/barcodescanner.xf/5.0.8/barcodescanner.xf.5.0.8.nupkg.sha512",
+    "/Users/abhinash.pati/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/3.1.3/microsoft.extensions.dependencyinjection.abstractions.3.1.3.nupkg.sha512",
+    "/Users/abhinash.pati/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/Users/abhinash.pati/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
+    "/Users/abhinash.pati/.nuget/packages/prism.container.extensions/7.2.0.1054/prism.container.extensions.7.2.0.1054.nupkg.sha512",
+    "/Users/abhinash.pati/.nuget/packages/prism.core/7.2.0.1422/prism.core.7.2.0.1422.nupkg.sha512",
+    "/Users/abhinash.pati/.nuget/packages/prism.forms/7.2.0.1422/prism.forms.7.2.0.1422.nupkg.sha512",
+    "/Users/abhinash.pati/.nuget/packages/prism.forms.extended/7.2.0.1054/prism.forms.extended.7.2.0.1054.nupkg.sha512",
+    "/Users/abhinash.pati/.nuget/packages/prism.plugin.logging.abstractions/7.2.0.1053/prism.plugin.logging.abstractions.7.2.0.1053.nupkg.sha512",
+    "/Users/abhinash.pati/.nuget/packages/prism.plugin.popups/7.2.0.1046/prism.plugin.popups.7.2.0.1046.nupkg.sha512",
+    "/Users/abhinash.pati/.nuget/packages/prism.unity.extensions/7.2.0.1054/prism.unity.extensions.7.2.0.1054.nupkg.sha512",
+    "/Users/abhinash.pati/.nuget/packages/rg.plugins.popup/2.0.0.11/rg.plugins.popup.2.0.0.11.nupkg.sha512",
+    "/Users/abhinash.pati/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/abhinash.pati/.nuget/packages/system.reflection.emit.ilgeneration/4.7.0/system.reflection.emit.ilgeneration.4.7.0.nupkg.sha512",
+    "/Users/abhinash.pati/.nuget/packages/system.reflection.emit.lightweight/4.7.0/system.reflection.emit.lightweight.4.7.0.nupkg.sha512",
+    "/Users/abhinash.pati/.nuget/packages/system.runtime.compilerservices.unsafe/4.5.3/system.runtime.compilerservices.unsafe.4.5.3.nupkg.sha512",
+    "/Users/abhinash.pati/.nuget/packages/system.threading.tasks.extensions/4.5.4/system.threading.tasks.extensions.4.5.4.nupkg.sha512",
+    "/Users/abhinash.pati/.nuget/packages/unity.abstractions/5.11.5/unity.abstractions.5.11.5.nupkg.sha512",
+    "/Users/abhinash.pati/.nuget/packages/unity.container/5.11.6/unity.container.5.11.6.nupkg.sha512",
+    "/Users/abhinash.pati/.nuget/packages/xamarin.communitytoolkit/1.2.0/xamarin.communitytoolkit.1.2.0.nupkg.sha512",
+    "/Users/abhinash.pati/.nuget/packages/xamarin.essentials/1.6.1/xamarin.essentials.1.6.1.nupkg.sha512",
+    "/Users/abhinash.pati/.nuget/packages/xamarin.essentials.interfaces/1.6.1/xamarin.essentials.interfaces.1.6.1.nupkg.sha512",
+    "/Users/abhinash.pati/.nuget/packages/xamarin.forms/5.0.0.2012/xamarin.forms.5.0.0.2012.nupkg.sha512"
+  ],
+  "logs": []
+}
