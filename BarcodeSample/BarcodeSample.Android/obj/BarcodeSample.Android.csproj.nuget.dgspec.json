@@ -1,0 +1,201 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/abhinash.pati/Documents/Devworkspace/BarcodeSample/BarcodeSample/BarcodeSample.Android/BarcodeSample.Android.csproj": {}
+  },
+  "projects": {
+    "/Users/abhinash.pati/Documents/Devworkspace/BarcodeSample/BarcodeSample/BarcodeSample.Android/BarcodeSample.Android.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/abhinash.pati/Documents/Devworkspace/BarcodeSample/BarcodeSample/BarcodeSample.Android/BarcodeSample.Android.csproj",
+        "projectName": "BarcodeSample.Android",
+        "projectPath": "/Users/abhinash.pati/Documents/Devworkspace/BarcodeSample/BarcodeSample/BarcodeSample.Android/BarcodeSample.Android.csproj",
+        "packagesPath": "/Users/abhinash.pati/.nuget/packages/",
+        "outputPath": "/Users/abhinash.pati/Documents/Devworkspace/BarcodeSample/BarcodeSample/BarcodeSample.Android/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "/Users/abhinash.pati/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid11.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://coolblue.myget.org/F/coolblue/auth/8871bb0a-2fda-4925-b1a7-0f22ad07d1ed/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid11.0": {
+            "projectReferences": {
+              "/Users/abhinash.pati/Documents/Devworkspace/BarcodeSample/BarcodeSample/BarcodeSample/BarcodeSample.csproj": {
+                "projectPath": "/Users/abhinash.pati/Documents/Devworkspace/BarcodeSample/BarcodeSample/BarcodeSample/BarcodeSample.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid11.0": {
+          "dependencies": {
+            "BarcodeScanner.XF": {
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "Prism.Container.Extensions": {
+              "target": "Package",
+              "version": "[7.2.0.1054, )"
+            },
+            "Prism.Forms.Extended": {
+              "target": "Package",
+              "version": "[7.2.0.1054, )"
+            },
+            "Prism.Plugin.Popups": {
+              "target": "Package",
+              "version": "[7.2.0.1046, )"
+            },
+            "Prism.Unity.Extensions": {
+              "target": "Package",
+              "version": "[7.2.0.1054, )"
+            },
+            "Rg.Plugins.Popup": {
+              "target": "Package",
+              "version": "[2.0.0.11, )"
+            },
+            "Xamarin.Android.Support.Design": {
+              "target": "Package",
+              "version": "[28.0.0.3, )"
+            },
+            "Xamarin.Android.Support.v4": {
+              "target": "Package",
+              "version": "[28.0.0.3, )"
+            },
+            "Xamarin.Android.Support.v7.AppCompat": {
+              "target": "Package",
+              "version": "[28.0.0.3, )"
+            },
+            "Xamarin.Android.Support.v7.CardView": {
+              "target": "Package",
+              "version": "[28.0.0.3, )"
+            },
+            "Xamarin.Android.Support.v7.MediaRouter": {
+              "target": "Package",
+              "version": "[28.0.0.3, )"
+            },
+            "Xamarin.CommunityToolkit": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.6.1, )"
+            },
+            "Xamarin.Essentials.Interfaces": {
+              "target": "Package",
+              "version": "[1.6.1, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[5.0.0.2012, )"
+            }
+          }
+        }
+      }
+    },
+    "/Users/abhinash.pati/Documents/Devworkspace/BarcodeSample/BarcodeSample/BarcodeSample/BarcodeSample.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/abhinash.pati/Documents/Devworkspace/BarcodeSample/BarcodeSample/BarcodeSample/BarcodeSample.csproj",
+        "projectName": "BarcodeSample",
+        "projectPath": "/Users/abhinash.pati/Documents/Devworkspace/BarcodeSample/BarcodeSample/BarcodeSample/BarcodeSample.csproj",
+        "packagesPath": "/Users/abhinash.pati/.nuget/packages/",
+        "outputPath": "/Users/abhinash.pati/Documents/Devworkspace/BarcodeSample/BarcodeSample/BarcodeSample/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/abhinash.pati/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://coolblue.myget.org/F/coolblue/auth/8871bb0a-2fda-4925-b1a7-0f22ad07d1ed/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "BarcodeScanner.XF": {
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Prism.Container.Extensions": {
+              "target": "Package",
+              "version": "[7.2.0.1054, )"
+            },
+            "Prism.Forms.Extended": {
+              "target": "Package",
+              "version": "[7.2.0.1054, )"
+            },
+            "Prism.Plugin.Popups": {
+              "target": "Package",
+              "version": "[7.2.0.1046, )"
+            },
+            "Prism.Unity.Extensions": {
+              "target": "Package",
+              "version": "[7.2.0.1054, )"
+            },
+            "Rg.Plugins.Popup": {
+              "target": "Package",
+              "version": "[2.0.0.11, )"
+            },
+            "Xamarin.CommunityToolkit": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.6.1, )"
+            },
+            "Xamarin.Essentials.Interfaces": {
+              "target": "Package",
+              "version": "[1.6.1, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[5.0.0.2012, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

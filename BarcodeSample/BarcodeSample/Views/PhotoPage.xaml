@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewModels="clr-namespace:BarcodeSample.ViewModels;assembly=BarcodeSample"
+             xmlns:controls="clr-namespace:BarcodeSample.CustomControls;assembly=BarcodeSample"
+             x:DataType="viewModels:PhotoPageViewModel"
+             x:Class="BarcodeSample.Views.PhotoPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Button Text="Open Camera"
+                    VerticalOptions="Start"
+                    HorizontalOptions="Center"
+                    Command="{Binding TakeBarcodePhotoCommand }"/>
+            <Label Text="{Binding PhotoPath}"
+                   VerticalOptions="Center"
+                   HorizontalOptions="Center"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
